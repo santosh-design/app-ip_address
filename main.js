@@ -65,11 +65,7 @@ const path = require('path');
  * to unequivocally locate the file module.
  */
 const { getIpv4MappedIpv6Address } = require(path.join(__dirname, 'ipv6.js'));
-
-
-
-
-
+ 
  {
 
   // Initialize return argument
@@ -113,14 +109,6 @@ const { getIpv4MappedIpv6Address } = require(path.join(__dirname, 'ipv6.js'));
   }
   return ipv6Address;
 }
-
-
-
-
-/*
-  This section is used to test function and log any errors.
-  We will make several positive and negative tests.
-*/
 /*
   This section is used to test function and log any errors.
   We will make several positive and negative tests.
